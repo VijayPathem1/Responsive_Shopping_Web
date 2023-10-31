@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Stylesheets -->
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="./Owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./Owl/owl.theme.default.min.css" />
+    <!-- javascript -->
+    <script src="./Owl/jquery.min.js"></script>
+    <script src="./Owl/owl.carousel.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid mt-2">
+      <nav class="navbar navbar-expand-sm wd">
+        <div class="container-fluid">
+          <img src="./images/Luxire_250x@2x.png" class="logo1"/>
+          <img src="./images/Group_2_250x@2x.png" class="ann" style="margin-left: 1%;">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mynavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto humber">
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item mid dropdown" style="width: fit-content;">
+                <a class="nav-link" type="button" href="#" data-bs-toggle="dropdown">Shop</a>
+                <div class="dropdown-menu">
+                  <div class="dis">
+                    <div class="drp-itm">
+                      <h6 style="text-align: center;">Shirts</h6>
+                      <a class="dropdown-item" href="#">All Shirts</a>
+                      <a class="dropdown-item" href="#">Oxford Shirts</a>
+                      <a class="dropdown-item" href="#">Business Shirts</a>
+                      <a class="dropdown-item" href="#">Stripe Shirts</a>
+                      <a class="dropdown-item" href="#">Check Shirts</a>
+                      <a class="dropdown-item" href="#">Linen Shirts</a>
+                      <a class="dropdown-item" href="#">Untucked Shirts</a>
+                      <a class="dropdown-item" href="#">Polo Shirts</a>
+                      <a class="dropdown-item" href="#">Tuxedo Shirts</a>
+                    </div>
+                    <div class="drp-itm">
+                      <h6 style="text-align: center;">Pants</h6>
+                      <a class="dropdown-item" href="#">All pants</a>
+                      <a class="dropdown-item" href="#">Chino Pants</a>
+                      <a class="dropdown-item" href="#">Dress Pants</a>
+                      <a class="dropdown-item" href="#">High Waisted Pants</a>
+                      <a class="dropdown-item" href="#">Gurkha Pants</a>
+                      <a class="dropdown-item" href="#">Jeans</a>
+                      <a class="dropdown-item" href="#">Cargo</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">On-Sale</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gift</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">My Account</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+              <button class="btn" type="button"><i class="fa-solid fa-cart-shopping"></i></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="row" style="margin-top: 40px">
+        <section id="demos" class="mt-3 w-100">
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="fadeOut owl-carousel owl-theme">
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/carousal/img.jpg" alt="img1"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/carousal/img1.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"></a><img src="./images/carousal/img.jpg" /></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/carousal/img1.jpg" /></a>
+                </div>
+              </div>
+              <script>
+                jQuery(document).ready(function($) {
+                  $('.fadeOut').owlCarousel({
+                    items: 1,
+                    animateOut: 'fadeOut',
+                    loop: true,
+                    margin: 10,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                  });
+                  $('.custom1').owlCarousel({
+                    animateOut: 'slideOutDown',
+                    animateIn: 'flipInX',
+                    items: 1,
+                    margin: 30,
+                    stagePadding: 30,
+                    smartSpeed: 450
+                  });
+                });
+              </script> 
+            </div>
+          </div>
+        </section>
+        <div class="row mt-5 wd">
+          <div class="col-sm-12">
+            <div class="row detailer">
+              <div class="col-6 col-sm-4 col-md-3">
+                <img src="./images/1.png"/>
+                <p style="display: inline-block;">Ships<br><small>In 3 days</small></p>
+              </div>
+              <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <img src="./images/2.png"/>
+                <p style="display: inline-block;">Always<br><small>In Stock</small></p>
+              </div>
+              <div class="col-6 col-sm-4 col-md-2 mt-2">
+                <img src="./images/3.png"/>
+                <p style="display: inline-block;">Tailor<br><small>Made</small></p>
+              </div>
+              <div class="col-6 col-sm-6 col-md-2 mt-2">
+                <img src="./images/4.png"/>
+                <p>Natural<br><small>Fabrics</small></p>
+              </div>
+              <div class="col-xs-6 col-sm-6 col-md-3 mt-2" style="text-align: center;">
+                <img src="./images/5.png"/>
+                <p>Shipping<br><small>World-wide</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5 wd">
+          <h4>All our products are custom made</h4>
+          <div class="prices row mt-5">
+            <p class="col-sm-1"></p>
+            <figure class="col-sm-2">
+              <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/Polos.jpg" alt="Trulli" style="width:100%"></a>
+              <figcaption class="fig-cap"><a href="./productListingPage/productlistingpage.html">Polo Shirts <i class="fa-solid fa-arrow-right"></i></a></figcaption>
+            </figure>
+            <figure class="col-sm-2">
+              <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/dress_pants_1.jpg" alt="Trulli" style="width:100%"></a>
+              <figcaption class="fig-cap"><a href="./productListingPage/productlistingpage.html">All Pants <i class="fa-solid fa-arrow-right"></i></a></figcaption>
+            </figure>
+            <figure class="col-sm-2">
+              <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/5.jpg" alt="Trulli" style="width:100%"></a>
+              <figcaption class="fig-cap"><a href="./productListingPage/productlistingpage.html">Jeans <i class="fa-solid fa-arrow-right"></i></a></figcaption>
+            </figure>
+            <figure class="col-sm-2">
+              <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/4.jpg" alt="Trulli" style="width:100%"></a>
+              <figcaption class="fig-cap"><a href="./productListingPage/productlistingpage.html">Jackets <i class="fa-solid fa-arrow-right"></i></a></figcaption>
+            </figure>
+            <figure class="col-sm-2">
+              <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/3.jpg" alt="Trulli" style="width:100%"></a>
+              <figcaption class="fig-cap"><a href="./productListingPage/productlistingpage.html">All Shirts <i class="fa-solid fa-arrow-right"></i></a></figcaption>
+            </figure>
+            <p class="col-sm-1"></p>
+          </div>
+        </div>
+        <div class="row mt-5 imgone" style="margin-right: 0">
+          <div class="col-sm-4">
+            <a href="./productListingPage/productlistingpage.html"><img src="./images/shorts1.jpg"/></a>
+            <h5 class="sho">Luxire Shorts</h5>
+            <p>
+              Pair your Luxire shorts with a cool polo to beat the summer or just to
+              enjoy the relaxed feel
+            </p>
+            <h6>Luxire Shorts <i class="fa-solid fa-arrow-right"></i></h6>
+          </div>
+          <div class="col-sm-4 short">
+            <a href="./productListingPage/productlistingpage.html"><img src="./images/set.jpg"/></a>
+            <h5 class="sho">Untucked Shirts</h5>
+            <p>
+              Untucked shirt: A well fitting shirt, of the right length, looks
+              elegant when worn untucked. In the right situations, it enhances your
+              personality and makes you look cool
+            </p>
+            <h6>Untucked Shirts <i class="fa-solid fa-arrow-right"></i></h6>
+          </div>
+        </div>
+        <div class="row mt-5 gursub">
+          <div class="col-6 mt-2 gurkha">
+            <a href="./productListingPage/productlistingpage.html"><img src="./images/gurkhapant.jpg" class="d-block w-100"/></a>
+            <a href="#" class="gurkha-pants">Gurkha Pants</a>
+          </div>
+          <div class="col-sm-6 mt-2 sub">
+            <div class="signing-up">
+              <label for="email"
+                ><h5>Sign up to get the latest on products/offers</h5></label
+              ><br />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter Your email id"
+              /><br /><br />
+              <p class="p-btn1"><button type="submit" name="Subscribe">Subscribe</button></p>
+            </div>
+          </div>
+        </div>
+        <div class="row insta mt-3 wd">
+          <h5>Luxire On Instagram</h5>
+        </div>
+        <section id="demos" class="mt-3">
+          <div class="row">
+            <div class="large-8 columns">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/Polos.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/3.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/4.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/dress_pants_1.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/5.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/Polos.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/3.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/4.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/dress_pants_1.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/5.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/Polos.jpg"/></a>
+                </div>
+                <div class="item">
+                  <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/3.jpg"/></a>
+                </div>
+              </div>
+              <script>
+                $(document).ready(function () {
+                  var owl = $(".owl-carousel");
+                  owl.owlCarousel({
+                    items: 4,
+                    loop: true,
+                    margin: 10,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                  });
+                });
+              </script>
+            </div>
+          </div>
+        </section>
+        <div class="row insta mt-3 wd">
+          <h5>Our Best Sellers</h5>
+        </div>
+        <section id="demos" class="mt-3">
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="owl-carousel owl-theme text-break">
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/Polos.jpg"/><br/></a>
+                    <p>
+                      <a href="#">Summer Camp Shirt<br/>$199.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/3.jpg"/><br/></a>
+                    <p>
+                      <a href="#">Yellow Flower Shirt<br>$139.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/4.jpg"/><br/></a>
+                    <p>
+                      <a href="./productListingPage/productlistingpage.html">Summer Camp Shirt<br>$199.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/dress_pants_1.jpg"/><br/></a>
+                    <p>
+                      <a href="./productListingPage/productlistingpage.html">Yellow Flower Shirt<br>$159.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/Polos.jpg"/><br/></a>
+                    <p>
+                      <a href="#">Summer Camp Shirt<br/>$199.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/3.jpg"/><br/></a>
+                    <p>
+                      <a href="#">Yellow Flower Shirt<br>$139.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/4.jpg"/><br/></a>
+                    <p>
+                      <a href="./productListingPage/productlistingpage.html">Summer Camp Shirt<br>$199.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/dress_pants_1.jpg"/><br/></a>
+                    <p>
+                      <a href="./productListingPage/productlistingpage.html">Yellow Flower Shirt<br>$159.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/Polos.jpg"/><br/></a>
+                    <p>
+                      <a href="#">Summer Camp Shirt<br/>$199.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/3.jpg"/><br/></a>
+                    <p>
+                      <a href="#">Yellow Flower Shirt<br>$139.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/4.jpg"/><br/></a>
+                    <p>
+                      <a href="./productListingPage/productlistingpage.html">Summer Camp Shirt<br>$199.99USD</a>
+                    </p>
+                  </div>
+                </div>
+                <div class="item img-crsl">
+                  <div>
+                    <a href="./productListingPage/productlistingpage.html"><img src="./images/image-of-prices/dress_pants_1.jpg"/><br/></a>
+                    <p>
+                      <a href="./productListingPage/productlistingpage.html">Yellow Flower Shirt<br>$159.99USD</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <script>
+                $(document).ready(function () {
+                  var owl = $(".owl-carousel");
+                  owl.owlCarousel({
+                    items: 4,
+                    loop: true,
+                    margin: 10,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    autoplayHoverPause: true,
+                  });
+                });
+              </script>
+            </div>
+          </div>
+        </section>
+      </div>
+      <hr class="wd"/>
+      <div class="row ftr mt-3 wd">
+        <div class="col-sm-3 logo-ftr">
+          <img
+            src="./images/Luxire_250x@2x.png"
+            class="d-block"
+            style="width: 90%"
+          />
+          <br />
+          <a href="#">Our story</a>
+          <a href="#">Shipping & Returns</a>
+          <a href="#">Quality & Satisfaction</a>
+          <a href="#">Custom-Fit</a>
+        </div>
+        <div class="col-sm-2">
+          <h5>Information</h5>
+          <br />
+          <a href="#">Search</a>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
+          <a href="#">How to Order</a>
+          <a href="#">Made-To-Fit</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Refund policy</a>
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-3">
+          <h5>Measure</h5>
+          <br />
+          <a href="#">Pant Measurements</a>
+          <a href="#">Body Measurement - Pants</a>
+          <a href="#">Measure your Shirt</a>
+          <a href="#">Body Measurement - Shirt</a>
+          <a href="#">Send Measurement Sample</a>
+          <a href="#">Pant Size Chart</a>
+          <a href="#">Shirt Size Chart</a>
+        </div>
+        <div class="col-sm-2">
+          <h5>Styles</h5>
+          <br />
+          <a href="#">Shirts</a>
+          <a href="#">Pants</a>
+          <a href="#">Our Collars</a>
+          <a href="#">All Shirts</a>
+          <a href="#">All Pants</a>
+        </div>
+      </div>
+      <hr class="wd"/>
+      <div class="row cpy">
+        <p class="col-sm-10">
+          &copy; 2023, Luxire Custom Clothing. Trademarks and brands are the
+          property of their respective owners.
+        </p>
+        <p class="col-sm-2">
+          <i class="fa-brands fa-twitter"></i
+          ><i class="fa-brands fa-facebook"></i
+          ><i class="fa-brands fa-instagram"></i>
+        </p>
+      </div>
+    </div>
+    <script src="./Owl/highlight.js"></script>
+    <script src="./Owl/app.js"></script>
+  </body>
+</html>

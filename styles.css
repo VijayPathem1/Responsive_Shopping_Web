@@ -1,0 +1,205 @@
+*{
+  font-family: 'Poppins', sans-serif;
+}
+.wd{
+  width: 95%;
+  margin: auto;
+}
+.logo1{
+  width: 20%;
+}
+.ann{
+  width: 8%;
+}
+.humber{
+  padding-left: 30%;
+}
+.detailer{
+  border-bottom: 1px solid gray;
+  padding-bottom: 2%;
+}
+.drp-itm a{
+  text-align: center;
+  font-size: small;
+  opacity: 0.5;
+}
+.drp-itm a:hover{
+  opacity: 0.8;
+}
+.dis{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.detailer div{
+  font-size: small;
+}
+.detailer p,.detailer img{  
+  display: inline-block;
+}
+.detailer p{
+  padding-left: 2%;
+}
+.fig-cap{
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.fig-cap a{
+  color: white;
+  text-decoration: none;
+}
+.fig-cap a:hover{
+  text-decoration:underline;
+}
+.prices{
+  width: 80%;
+  margin: auto;
+}
+.prices p a{
+  color: white;
+  text-decoration: none;
+}
+/*.shows a{
+  color: black;
+  text-decoration: none;
+}*/
+.imgone {
+  padding-left: 10%;
+  margin-right: 0;
+} 
+.imgone p{
+  font-size: small;
+  opacity: 0.7;
+}
+.imgone img{
+  width: 100%;
+}
+.imgone .short {
+  margin-left: 180px;
+}
+.imgone .sho {
+  margin-top: 10%;
+}
+.imgone a{
+  text-decoration: none;
+  color: black;
+}
+.gursub{
+  width: 95%;
+  margin: auto;
+}
+.gurkha {
+  position: relative;
+}
+.gurkha .gurkha-pants{
+  text-decoration: none;
+  color: white;
+  padding: 5px 12px;
+  background-color: black;
+  position: absolute;
+  top: 72%;
+  right: 33%;
+}
+.sub{
+  border: 1px solid rgb(196, 196, 196);
+}
+.sub input::placeholder{
+  font-size: 12px;
+  padding: 5px;
+}
+.signing-up{
+  width: 90%;
+  margin: 15% auto;
+}
+input[type="email"]{
+  margin: auto;
+  width: 90%;
+}
+.sub .p-btn1{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.sub button{
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 1% 2%;
+}
+#demos{
+  width: 80%;
+  margin: auto;
+}
+.img-crsl{
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0, 0.5);
+  text-align: center;
+}
+.img-crsl p{
+  background-color: antiquewhite;
+}
+.img-crsl a{
+  color: black;
+  font-size: small;
+}
+.ftr{
+  padding: 8% 0;
+}
+.ftr a{
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+  font-weight: 300;
+  font-size: 0.90rem;
+}
+.ftr a:hover{
+  text-decoration: underline;
+}
+.hr{
+  margin: 20px 0px;
+}
+.cpy{
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5%;
+}
+.cpy p:nth-child(1){
+  font-weight: lighter;
+}
+.cpy p:nth-child(2){
+  text-align: center;
+}
+.cpy i{
+  padding: 5%;
+}
+@media screen and (max-width:700px){
+  .gurkha{
+    width: 100%;
+  }
+  .imgone {
+    padding-left: 10px;
+  }
+  
+  .sho {
+    margin-top: 20px;
+  }
+  
+  .imgone .short {
+    margin-left: auto;
+  }
+  .imgone div{
+    width: 90%;
+    margin: auto;
+  }
+  .humber{
+    padding-left: 3%;
+  }
+  .logo1{
+    width: 40%;
+  }
+  .ann{
+    width: 25%;
+  }
+}
