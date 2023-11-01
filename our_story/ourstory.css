@@ -1,5 +1,6 @@
 * {
   font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px; 
 }
 p {
   margin-bottom: 0 !important;
@@ -20,9 +21,6 @@ p {
 .ann {
   width: 8%;
 }
-.ann {
-  width: 8%;
-}
 .humber {
   padding-left: 30%;
 }
@@ -37,7 +35,6 @@ p {
     width: 25%;
   }
 }
-
 .drp-itm a {
   text-align: center;
   font-size: small;
@@ -52,57 +49,42 @@ p {
   justify-content: space-evenly;
   padding: 15px;
 }
-.sort {
-  display: flex;
-  justify-content: flex-end;
-  gap: 4%;
+.ta{
+  width: 95%;
+  margin: auto;
+  font-weight: 380;
 }
-.sort p {
-  opacity: 0.8;
+.prm{
+  margin: 8vw auto 2vw;
+}
+.story{
+  text-decoration: underline!important;
+}
+.detailer div{
   font-size: small;
 }
-.list-image {
-  margin-bottom: 4vw;
+.detailer p,.detailer img{  
+  display: inline-block;
 }
-.list-image a {
-  color: rgba(0, 0, 0, 0.7);
-  text-decoration: none;
+.detailer p{
+  padding-left: 2%;
 }
-.price span {
-  opacity: 1;
+.infor{
+  padding: 3% 0;
+  background-color: rgb(235, 235, 235);
 }
-.price span {
-  margin-left: 2vw;
+.mgn{
+  width: 95%;
+  margin: auto;
 }
-.li-div {
-  padding: 2vw;
-  box-sizing: border-box;
-  border: 1px solid rgba(128, 128, 128, 0.1);
+.fab{
+  background-color: white;
+  height: 100%;
+  padding: 5%;
 }
-.rib{
-  position: relative;
-}
-.ribbon-wrapper {
-  width: 85px;
-  height: 88px;
-  overflow: hidden;
-  position: absolute;
-  top: -3px;
-  left: -3px;
-
-  .ribbon{
-    font: bold 12px sans-serif;
-    color: #333;
-    text-align: center;
-    transform: rotate(-45deg);
-    position: relative;
-    padding: 4px 0;
-    top: 15px;
-    left: -30px;
-    width: 120px;
-    background-color: rgba(126,36,111,255);
-    color: #fff;
-  }
+.fab p{
+  font-weight: 380;
+  font-size: small;
 }
 .ftr {
   padding-bottom: 3%;
