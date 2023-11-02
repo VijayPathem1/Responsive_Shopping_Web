@@ -1,0 +1,133 @@
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px; 
+}
+p {
+  margin-bottom: 0 !important;
+}
+.wd {
+  width: 95%;
+  margin: auto;
+}
+.div {
+  border-bottom: 1px solid gainsboro;
+}
+.logo1{
+  width: 20%;
+}
+.logo1 img{
+  width: 100%;
+}
+.ann {
+  width: 8%;
+}
+.humber {
+  padding-left: 30%;
+}
+@media screen and (max-width: 650px) {
+  .humber {
+    padding-left: 3%;
+  }
+  .logo1 {
+    width: 40%;
+  }
+  .ann {
+    width: 25%;
+  }
+}
+.drp-itm a {
+  text-align: center;
+  font-size: small;
+  opacity: 0.5;
+}
+.drp-itm a:hover {
+  opacity: 0.8;
+}
+.dis {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.ta{
+  width: 95%;
+  margin: auto;
+  font-weight: 380;
+}
+.prm{
+  margin: 8vw auto 2vw;
+}
+.table{
+  font-size: smaller;
+}
+.table h6{
+  font-size: small;
+}
+.table td{
+  padding: 2vw 1vw;
+}
+.table p:nth-child(odd){
+  color: rgb(14, 137, 237);
+}
+.empty{
+  width: 25%;
+}
+.about{
+  text-decoration: underline!important;
+}
+.detailer div{
+  font-size: small;
+}
+.detailer p,.detailer img{  
+  display: inline-block;
+}
+.detailer p{
+  padding-left: 2%;
+}
+.infor{
+  padding: 3% 0;
+  background-color: rgb(235, 235, 235);
+}
+.mgn{
+  width: 95%;
+  margin: auto;
+}
+.fab{
+  background-color: white;
+  height: 100%;
+  padding: 5%;
+}
+.fab p{
+  font-weight: 380;
+  font-size: small;
+}
+.ftr {
+  padding-bottom: 3%;
+}
+.ftr a {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.ftr a:hover {
+  text-decoration: underline;
+}
+.hr {
+  margin: 20px 0px;
+}
+.cpy {
+  width: 90%;
+  margin: 3% auto;
+}
+.cpy p:nth-child(1) {
+  font-weight: lighter;
+}
+.cpy p:nth-child(2) {
+  text-align: center;
+}
+.cpy i {
+  padding: 5%;
+}

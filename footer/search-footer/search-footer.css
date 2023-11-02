@@ -1,0 +1,112 @@
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px; 
+}
+p {
+  margin-bottom: 0 !important;
+}
+.wd {
+  width: 95%;
+  margin: auto;
+}
+.div {
+  border-bottom: 1px solid gainsboro;
+}
+.logo1{
+  width: 20%;
+}
+.logo1 img{
+  width: 100%;
+}
+.ann {
+  width: 8%;
+}
+.humber {
+  padding-left: 30%;
+}
+@media screen and (max-width: 650px) {
+  .humber {
+    padding-left: 3%;
+  }
+  .logo1 {
+    width: 40%;
+  }
+  .ann {
+    width: 25%;
+  }
+}
+.drp-itm a {
+  text-align: center;
+  font-size: small;
+  opacity: 0.5;
+}
+.drp-itm a:hover {
+  opacity: 0.8;
+}
+.dis {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.search-footer-div h2{
+  text-align: center;
+}
+.search-footer-div{
+  margin: 10% auto 15%;
+}
+.input-search{
+  width: 40%;
+  border: 1px solid black;
+  margin: 2% auto;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: border 0.1s ease-in-out;
+}
+.input-search:hover{
+  box-shadow: 1px 1px 5px rgba(0,0,0, 0.3);
+  border: 1.5px solid black;
+}
+.input-search input{
+  width: 95%;
+  outline: 0;
+  border: none;
+}
+.input-search a{
+  color: black;
+}
+.search-footer{
+  text-decoration: underline!important;
+}
+.ftr {
+  padding-bottom: 3%;
+}
+.ftr a {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.ftr a:hover {
+  text-decoration: underline;
+}
+.hr {
+  margin: 20px 0px;
+}
+.cpy {
+  width: 90%;
+  margin: 3% auto;
+}
+.cpy p:nth-child(1) {
+  font-weight: 300;
+}
+.cpy p:nth-child(2) {
+  text-align: center;
+}
+.cpy i {
+  padding: 5%;
+}
