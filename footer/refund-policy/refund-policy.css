@@ -34,6 +34,10 @@ p {
   .ann {
     width: 25%;
   }
+  .refund-policy-div{
+    width: 90%!important;
+    margin: auto;
+  }
 }
 .drp-itm a {
   text-align: center;
@@ -49,49 +53,15 @@ p {
   justify-content: space-evenly;
   padding: 15px;
 }
-.return-p{
-  font-weight: 380;
-  letter-spacing: 0.5px;
-  font-size: 1rem;
-}
-.return-p span{
-  font-weight: bold;
-  color: rgb(48, 85, 154);
-}
-.return-p a{
-  color: black;
-}
-.return-h{
-  text-align: center;
-}
-.return{
-  text-decoration: underline!important;
-}
-.detailer div{
-  font-size: small;
-}
-.detailer p,.detailer img{  
-  display: inline-block;
-}
-.detailer p{
-  padding-left: 2%;
-}
-.infor{
-  padding: 3% 0;
-  background-color: rgb(235, 235, 235);
-}
-.mgn{
-  width: 95%;
+.refund-policy-div{
+  width: 50%;
   margin: auto;
 }
-.you{
-  background-color: white;
-  height: 100%;
-  padding: 5%;
-}
-.you p{
+.refund-policy-p{
   font-weight: 380;
-  font-size: small;
+}
+.refund-policy{
+  text-decoration: underline!important;
 }
 .ftr {
   padding-bottom: 3%;
