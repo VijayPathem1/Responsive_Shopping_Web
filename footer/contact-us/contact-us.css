@@ -49,35 +49,14 @@ p {
   justify-content: space-evenly;
   padding: 15px;
 }
-.search-footer-div h2{
-  text-align: center;
+.frm{
+  width: 60%;
+  margin: auto;
 }
-.search-footer-div{
-  margin: 10% auto 15%;
+#comment{
+  resize: none;
 }
-.input-search{
-  width: 40%;
-  border: 1px solid black;
-  margin: 2% auto;
-  padding: 1%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: border 0.1s ease-in-out;
-}
-.input-search:hover{
-  box-shadow: 1px 1px 5px rgba(0,0,0, 0.3);
-  border: 1.5px solid black;
-}
-.input-search input{
-  width: 100%;
-  outline: 0;
-  border: none;
-}
-.input-search a{
-  color: black;
-}
-.search-footer{
+.contact-us{
   text-decoration: underline!important;
 }
 .ftr {
