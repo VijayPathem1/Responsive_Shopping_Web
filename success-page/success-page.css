@@ -1,0 +1,94 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.wd {
+  width: 95%;
+  margin: auto;
+}
+.logo1{
+  width: 20%;
+}
+.logo1 img{
+  width: 100%;
+}
+.ann {
+  width: 8%;
+}
+.ann {
+  width: 8%;
+}
+.humber {
+  padding-left: 30%;
+}
+@media screen and (max-width: 650px) {
+  .humber {
+    padding-left: 3%;
+  }
+  .logo1 {
+    width: 40%;
+  }
+  .ann {
+    width: 25%;
+  }
+}
+
+.drp-itm a {
+  text-align: center;
+  font-size: small;
+  opacity: 0.5;
+}
+.drp-itm a:hover {
+  opacity: 0.8;
+}
+.dis{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.thanks .iconinig{
+  font-size: 14vh;
+  display: grid;
+  place-items: center;
+}
+.thanks button,.create-account button{
+  background-color:rgb(126,36,111);
+  padding: 5px 10px;
+  font-size: 13px;
+}
+.thanks p,.create-account p{
+  font-size: 13px;
+}
+.ftr {
+  padding-bottom: 3%;
+}
+.ftr a {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.ftr a:hover {
+  text-decoration: underline;
+}
+.hr {
+  margin: 20px 0px;
+}
+.cpy {
+  width: 90%;
+  margin: 3% auto;
+}
+.cpy p:nth-child(1) {
+  font-weight: lighter;
+}
+.cpy p:nth-child(2) {
+  text-align: center;
+}
+.cpy i {
+  padding: 5%;
+}

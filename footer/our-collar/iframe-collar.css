@@ -1,0 +1,26 @@
+.iframe-div{
+  padding: 3%;
+}
+.iframe-div div{
+  padding: 3%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  align-items: center;
+}
+.iframe-div div:hover{
+  box-shadow: 2px 2px 12px 2px gray;
+}
+.iframe-div img{
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+.iframe-div p{
+  font-size: small;
+}
+.iframe-div small{
+  font-size: smaller;
+  background-color:lightblue ;
+  border-radius: 2vw;
+  padding: 10px;
+}

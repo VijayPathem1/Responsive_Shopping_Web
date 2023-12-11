@@ -1,0 +1,178 @@
+* {
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px; 
+}
+p {
+  margin-bottom: 0 !important;
+}
+.wd {
+  width: 95%;
+  margin: auto;
+}
+.div {
+  border-bottom: 1px solid gainsboro;
+}
+.logo1{
+  width: 20%;
+}
+.logo1 img{
+  width: 100%;
+}
+.ann {
+  width: 8%;
+}
+.humber {
+  padding-left: 30%;
+}
+@media screen and (max-width: 650px) {
+  .humber {
+    padding-left: 3%;
+  }
+  .logo1 {
+    width: 40%;
+  }
+  .ann {
+    width: 25%;
+  }
+}
+.drp-itm a {
+  text-align: center;
+  font-size: small;
+  opacity: 0.5;
+}
+.drp-itm a:hover {
+  opacity: 0.8;
+}
+.dis {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.pant-size-chart{
+  text-decoration: underline!important;
+}
+.waist-size,.pant-type{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.waist-size p,.pant-type p{
+  padding: 5px;
+}
+.waist-size button,.pant-type button{
+  border: 1px solid black;
+  padding: 5px 5px 0px;
+  background-color: transparent;
+}
+.waist-size a, .pant-type a{
+  color: black;
+  text-decoration: none;
+}
+.waist-size button:active,.pant-type button:active{
+  background-color: black;
+}
+.waist-size button:active a,.pant-type button:active a{
+  color: white;
+}
+.size-inseam{
+  text-align: center;
+}
+.sc-1{
+  padding: 2% 2% 2% 6%; 
+}
+.sc-1 ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+.sc-1 li{
+  border-bottom: 1px solid black;
+  padding: 10px;
+  display: flex;
+}
+.numb{
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 48%;
+  width: 15px;
+  display: block;
+  height: 15px;
+  text-align: left;
+  background: #000;
+  color: #fff;
+  margin-right: 7px;
+  padding-right: 20px;
+  line-height: 5px;
+  margin-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+.text{
+  margin-top: 5px;
+}
+.push{
+  margin-top: 5px;
+  margin-left: auto;
+}
+.notes{
+  padding: 2%;
+  background-color:lightgrey;
+}
+.detailer div{
+  font-size: small;
+}
+.detailer p,.detailer img{  
+  display: inline-block;
+}
+.detailer p{
+  padding-left: 2%;
+}
+.infor{
+  padding: 3% 0;
+  background-color: rgb(235, 235, 235);
+}
+.mgn{
+  width: 95%;
+  margin: auto;
+}
+.you{
+  background-color: white;
+  height: 100%;
+  padding: 5%;
+}
+.you p{
+  font-weight: 380;
+  font-size: small;
+}
+.ftr {
+  padding-bottom: 3%;
+}
+.ftr a {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.ftr a:hover {
+  text-decoration: underline;
+}
+.hr {
+  margin: 20px 0px;
+}
+.cpy {
+  width: 90%;
+  margin: 3% auto;
+}
+.cpy p:nth-child(1) {
+  font-weight: 300;
+}
+.cpy p:nth-child(2) {
+  text-align: center;
+}
+.cpy i {
+  padding: 5%;
+}

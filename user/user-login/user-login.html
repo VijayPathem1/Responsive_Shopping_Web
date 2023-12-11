@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="./user-login.js"></script>
+  <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="./user-login.css">
+</head>
+<body>
+  <div class="container-fluid mt-2">
+    <nav class="navbar navbar-expand-sm wd">
+      <div class="container-fluid">
+        <a href="../../index.html" class="logo1"><img src="../../images/Luxire_250x@2x.png"/></a>
+        <img src="../../images/Group_2_250x@2x.png" class="ann" style="margin-left: 1%;">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto humber">
+            <li class="nav-item">
+              <a class="nav-link" href="#"></a>
+            </li>
+            <li class="nav-item mid dropdown" style="width: fit-content;">
+              <a class="nav-link" type="button" href="#" data-bs-toggle="dropdown">Shop</a>
+              <div class="dropdown-menu">
+                <div class="dis">
+                  <div class="drp-itm">
+                    <h6 style="text-align: center;">Shirts</h6>
+                    <a class="dropdown-item" href="#">All Shirts</a>
+                    <a class="dropdown-item" href="#">Oxford Shirts</a>
+                    <a class="dropdown-item" href="#">Business Shirts</a>
+                    <a class="dropdown-item" href="#">Stripe Shirts</a>
+                    <a class="dropdown-item" href="#">Check Shirts</a>
+                    <a class="dropdown-item" href="#">Linen Shirts</a>
+                    <a class="dropdown-item" href="#">Untucked Shirts</a>
+                    <a class="dropdown-item" href="#">Polo Shirts</a>
+                    <a class="dropdown-item" href="#">Tuxedo Shirts</a>
+                  </div>
+                  <div class="drp-itm">
+                    <h6 style="text-align: center;">Pants</h6>
+                    <a class="dropdown-item" href="#">All pants</a>
+                    <a class="dropdown-item" href="#">Chino Pants</a>
+                    <a class="dropdown-item" href="#">Dress Pants</a>
+                    <a class="dropdown-item" href="#">High Waisted Pants</a>
+                    <a class="dropdown-item" href="#">Gurkha Pants</a>
+                    <a class="dropdown-item" href="#">Jeans</a>
+                    <a class="dropdown-item" href="#">Cargo</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">On-Sale</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gift</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My Account</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <a href="#" class="btn" type="button"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#" class="btn" type="button"><a href="../../add-to-cart/add-to-cart.html" class="text-dark"><i class="fa-solid fa-cart-shopping"></i></a></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="row user-login-div wd">
+      <form class="login-forms col-md-6">
+        <h2>Login</h2>
+        <input type="email" placeholder="Enter your email" id="js-email" class="w-100 d-block mx-auto form-control mt-5 js-email" required>
+        <input type="password" placeholder="Enter your password" id="js-password" class="w-100 d-block mx-auto form-control mt-4 js-pass" required>
+        <p class="text-start"><small><a href="../forgot-password/forgot-password.html" class="text-decoration-none">forgot password?</a></small></p>
+        <button class="w-50 mt-5 btn btn-primary js-signin-btn" type="button" onclick="submitForm()">Sign In</button>
+        <p class="mt-3"><small>Didn't have an account? <a href="../user-register/user-register.html" class="text-decoration-none">Sign Up</a></small></p>
+      </form>
+    </div>
+    <hr>
+    <div class="row ftr wd">
+      <div class="col-sm-3 logo-ftr mt-5">
+        <img
+          src="../../images/Luxire_250x@2x.png"
+          class="d-block"
+          style="width: 90%"
+        />
+        <br />
+        <a href="../../our_story/ourstory.html">Our story</a>
+        <a href="../../shipping-returns/return.html">Shipping & Returns</a>
+        <a href="../../qualitysatisfaction/qualitysatisfaction.html">Quality & Satisfaction</a>
+        <a href="../../custom-fit/custom-fit.html">Custom-Fit</a>
+      </div>
+      <div class="col-sm-2 mt-5">
+        <h5>Information</h5>
+        <br />
+        <a href="#" class="search-footer">Search</a>
+        <a href="../../footer/about-us/about-us.html">About Us</a>
+        <a href="../../footer/privacypolicy/privacypolicy.html">Privacy Policy</a>
+        <a href="../../footer/faq/faq.html">FAQs</a>
+        <a href="../../footer/contact-us/contact-us.html">Contact Us</a>
+        <a href="../../footer/how-to-order/how-to-order.html">How to Order</a>
+        <a href="../../footer/made-to-fit/made-to-fit.html">Made-To-Fit</a>
+        <a href="../../footer/terms-of-services/terms-of-services.html">Terms of Service</a>
+        <a href="../../footer/refund-policy/refund-policy.html">Refund policy</a>
+      </div>
+      <div class="col-sm-1 mt-5"></div>
+      <div class="col-sm-3 mt-5">
+        <h5>Measure</h5>
+        <br />
+        <a href="../../footer/pant-measurement/pant-measurement.html">Pant Measurements</a>
+        <a href="../../footer/body-measure-pants/body-measure-pants.html">Body Measurement - Pants</a>
+        <a href="../../footer/shirt-measurement/shirt-measurement.html">Measure your Shirt</a>
+        <a href="../../footer/body-measure-shirts/body-measure-shirts.html">Body Measurement - Shirt</a>
+        <a href="../../footer/measurement-sample/measurement-sample.html">Send Measurement Sample</a>
+        <a href="../../footer/pant-size-chart/pant-size-chart.html">Pant Size Chart</a>
+        <a href="../../footer/shirt-size-chart/shirt-size-chart.html">Shirt Size Chart</a>
+      </div>
+      <div class="col-sm-2 mt-5">
+        <h5>Styles</h5>
+        <br />
+        <a href="../../footer/shirts/shirts.html">Shirts</a>
+        <a href="../../footer/pants/pants.html">Pants</a>
+        <a href="../../footer/our-collar/our-collar.html">Our Collars</a>
+        <a href="../../footer/all-shirts/all-shirts.html">All Shirts</a>
+        <a href="../../footer/all-pants/all-pants.html">All Pants</a>
+      </div>
+    </div>
+    <hr class="wd"/>
+    <div class="row cpy">
+      <p class="col-sm-10">
+        &copy; 2023, Luxire Custom Clothing. Trademarks and brands are the
+        property of their respective owners.
+      </p>
+      <p class="col-sm-2">
+        <i class="fa-brands fa-twitter"></i
+        ><i class="fa-brands fa-facebook"></i
+        ><i class="fa-brands fa-instagram"></i>
+      </p>
+    </div>
+  </div>
+</body>
+</html>

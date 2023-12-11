@@ -1,0 +1,136 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  margin-bottom: 0 !important;
+}
+.wd {
+  width: 95%;
+  margin: auto;
+}
+.logo1{
+  width: 20%;
+}
+.logo1 img{
+  width: 100%;
+}
+.ann {
+  width: 8%;
+}
+.ann {
+  width: 8%;
+}
+.humber {
+  padding-left: 30%;
+}
+@media screen and (max-width: 650px) {
+  .humber {
+    padding-left: 3%;
+  }
+  .logo1 {
+    width: 40%;
+  }
+  .ann {
+    width: 25%;
+  }
+}
+
+.drp-itm a {
+  text-align: center;
+  font-size: small;
+  opacity: 0.5;
+}
+.drp-itm a:hover {
+  opacity: 0.8;
+}
+.dis {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  gap: 4%;
+}
+.sort p {
+  opacity: 0.8;
+  font-size: small;
+}
+.list-image {
+  margin-bottom: 4vw;
+}
+.list-image a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+.price span {
+  opacity: 1;
+}
+.price span {
+  margin-left: 2vw;
+}
+.li-div {
+  padding: 2vw;
+  box-sizing: border-box;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+}
+.rib{
+  position: relative;
+}
+.ribbon-wrapper {
+  width: 85px;
+  height: 88px;
+  overflow: hidden;
+  position: absolute;
+  top: -3px;
+  left: -3px;
+
+  .ribbon{
+    font: bold 12px sans-serif;
+    color: #333;
+    text-align: center;
+    transform: rotate(-45deg);
+    position: relative;
+    padding: 4px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: rgba(126,36,111,255);
+    color: #fff;
+  }
+}
+.all-shirts{
+  text-decoration: underline!important;
+}
+.ftr {
+  padding-bottom: 3%;
+}
+.ftr a {
+  color: rgb(130, 130, 130);
+  text-decoration: none;
+  display: block;
+  padding: 5px 0px;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+.ftr a:hover {
+  text-decoration: underline;
+}
+.hr {
+  margin: 20px 0px;
+}
+.cpy {
+  width: 90%;
+  margin: 3% auto;
+}
+.cpy p:nth-child(1) {
+  font-weight: lighter;
+}
+.cpy p:nth-child(2) {
+  text-align: center;
+}
+.cpy i {
+  padding: 5%;
+}
