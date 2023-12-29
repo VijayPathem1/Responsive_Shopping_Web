@@ -9,7 +9,7 @@
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="./product-detail-page.js"></script>
+    <script src="../product-detail-page/product-detail-page.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -46,7 +46,7 @@
     <!-- javascript -->
     <script src="../Owl/jquery.min.js"></script>
     <script src="../Owl/owl.carousel.js"></script>
-    <link rel="stylesheet" href="./product-detail-page.css"/>
+    <link rel="stylesheet" href="gift.css"/>
   </head>
   <body>
     <div class="container-fluid mt-2">
@@ -100,7 +100,7 @@
                 <a class="nav-link" href="../productListingPage/productlistingpage.html">On-Sale</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="../gift/gift.html">Gift</a>
+                <a class="nav-link text-dark" href="../gift/gift.html">Gift</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../user/user-login/user-login.html">My Account</a>
@@ -116,67 +116,33 @@
       <hr class="mt-5">
       <div class="row wd">
         <div class="col-sm-6">
-          <img src="./images/img1.jpg" class="w-75 mx-auto d-block">
+          <img src="./images/gift.jpg" class="w-75 mx-auto d-block">
         </div>
         <div class="col-sm-6 right-div">
-          <div class="row mt-3 border">
-            <h5>Fade Washed Indigo Jeans</h5>
-            <p><span class="cost">$139.99 USD</span><span><del>$199.99 USD</del></span><button class="btn btn-primary">sale</button></p>  
-            <p>
-              <i class="fa-solid fa-star" style="color: #000000;"></i>
-              <i class="fa-solid fa-star" style="color: #000000;"></i>
-              <i class="fa-solid fa-star" style="color: #000000;"></i>
-              <i class="fa-solid fa-star" style="color: #000000;"></i>
-              <i class="fa-solid fa-star-half-stroke" style="color: #000000;"></i>
-              <span>24 reviews</span>
-            </p>
-            <p class="pay-in-4">Pay in 4 interest-free installments of $29.99 with <img src="./images/shoppay.svg" class="d-inline-block"><a href="#">Learn more</a></p>
+          <div class="row mt-3 border border-1 border-dark">
+            <h5>The Luxire Gift Card</h5>
+            <p><span class="cost"><b>$50.00 USD</b></span></p>
           </div>
-          <div class="row select-fit border mt-3">
-            <p>Select Fit</p>
-            <p><button class="btn btn-dark fw-light me-5">Regular Fit</button><button class="btn border fw-light">Slim Fit</button>
-            </p><p>Select size</p>
-            <p><button class="btn border fw-light me-3">S</button><button class="btn border fw-light me-3">M</button><button class="btn border fw-light me-3">L</button><button class="btn border fw-light me-3">Xl</button></p>
-            <p class="or mt-3">OR</p>
-            <div>
-              <select name="Select-size" id="Select-size-dropdown" class="form-control">
-                <option value="sizes" class="sizes">
-                 Select Sizes
-                </option>
-              </select>
+          <div class="row select-fit border border-1 border-dark mt-3">
+            <p>Amount</p>
+            <div class="amount-div">
+              <button class="btn btn-dark">$50.00</button>
+              <button class="btn btn-dark">$100.00</button>
+              <button class="btn btn-dark">$250.00</button>
+              <button class="btn btn-dark">$500.00</button>
+              <button class="btn btn-dark">$1,000.00</button>
+              <button class="btn btn-dark">$1500.00</button>
             </div>
           </div>
           <p class="tailor-cart mt-3 row">
-            <span><img src="./images/tailor.png"><a href="#">Make my own size</a>
-            </span><span><i class="fa-sharp fa-solid fa-calendar-lines" style="color: #000000;"></i><a href="../add-to-cart/add-to-cart.html" class="w-50 btn btn-dark">Add To Cart</a></span>
+            <span>
+              <i class="fa-sharp fa-solid fa-calendar-lines" style="color: #000000;"></i>
+              <a href="../add-to-cart/add-to-cart.html" class="w-100 btn btn-dark">Add To Cart</a>
+            </span>
           </p>
-          <div class="border p-5">
-            <div class="details-style-review"><span>Details</span><span>Style Options</span><span>Reviews</span></div>
-            <ul class="listing-precautions">
-              <li>100% Cotton,252 gms/8.5 Oz.</li>
-              <li>Machine Wash Cold, Tumble Dry.</li>
-              <li>Fade Wash Colour May Slightly Vary From Images.</li>
-              <li>For fade wash garments, there may be an extra 7-10 days delay ,from regular items, in shipping out.</li>
-            </ul>
-          </div>
-          <div class="row mt-3 n-t-s-a">
-            <figure>
-              <p><img src="./images/fabric.svg" class="d-block w-75"></p>
-              <figcaption>Natural fabrics</figcaption>
-            </figure>
-            <figure>
-              <p><img src="./images/tailor.png" class="d-block w-75"></p>
-              <figcaption>Tailor Made for You</figcaption>
-            </figure>
-            <figure>
-              <p><img src="./images/globe.png" class="d-block w-75"></p>
-              <figcaption>Shipping world-wide</figcaption>
-            </figure>
-            <figure>
-              <p><img src="./images/stock.png" class="d-block w-75"></p>
-              <figcaption>Always In stock</figcaption>
-            </figure>
-          </div>
+          <h4 class="mt-5">Details</h4>
+          <p class="mt-2">Shopping for someone else but not sure what to give them? Give them the gift of choice with a Luxire Custom Clothing Gift Card.</p>
+          <p class="mt-1">Gift cards are delivered by email.</p>
         </div>
       </div>  
       <div class="row insta mt-3 wd">
