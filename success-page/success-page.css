@@ -33,6 +33,9 @@ p {
   .ann {
     width: 25%;
   }
+  table td{
+    padding: 2px!important;
+  }
 }
 
 .drp-itm a {
@@ -48,6 +51,9 @@ p {
   width: 100%;
   justify-content: space-evenly;
   padding: 15px;
+}
+table td{
+  padding: 10px;
 }
 .thanks .iconinig{
   font-size: 14vh;
