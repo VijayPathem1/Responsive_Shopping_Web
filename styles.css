@@ -205,3 +205,8 @@ input[type="email"]{
     width: 25%;
   }
 }
+@media screen and (min-width:500px) and (max-width:1250px){
+  figcaption{
+    height:10vh; 
+  }
+}
