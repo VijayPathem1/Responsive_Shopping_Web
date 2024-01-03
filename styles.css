@@ -47,6 +47,9 @@
 .detailer p{
   padding-left: 2%;
 }
+figcaption{
+  height: 10vh;
+}
 .fig-cap{
   background-color: black;
   color: white;
@@ -203,10 +206,5 @@ input[type="email"]{
   }
   .ann{
     width: 25%;
-  }
-}
-@media screen and (min-width:500px) and (max-width:1250px){
-  figcaption{
-    height:10vh; 
   }
 }
